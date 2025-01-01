@@ -1,0 +1,84 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Roboto Mono', monospace, 'Outfit', sans-serif;
+    background: linear-gradient(120deg, #1e3c72, #8b19b8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.contact-form h1{
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #b0e0e6;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #c89aeb;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #1e3c72;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #b0e0e6;
+}
+#contact-icons a{
+    padding: 5px 10px;
+    color: aqua;
+    text-decoration: none;
+    font-size: 1rem;
+}
+#contact-icons a :hover{
+    color: rgb(225, 69, 243);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
